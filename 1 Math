@@ -1,0 +1,12 @@
+#Matematik işlemleri
+5+5
+x=20
+20 * x = 400
+9/3 = 3.0
+9//3 = 3 ondalık kısım atılır
+% yüzde işareti bölümde kalanı verir 25%2 = 1
+üssü almak için ** 2 tane çarpı kullanmak lazım. 7**2 = 49
+#Matematik işlemlerinde öncelik yapmak için parantez kullan
+(5*5)+(9/3)-(2*2) = 24.0 
+(5*5)+(9//3)-(2*2) = 24 gibi
+
