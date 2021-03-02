@@ -1,0 +1,16 @@
+#Stringler yazıları pythonda yazmak için kullanılan işlemdir. 
+Çift tırnak ve tek tırnak ile yazılır. Aksi halde pyton yazmamaktadır. Hata vermektedir.
+"Merhaba"
+'Merhaba' gibi
+"Merhaba' olunca kabul etmiyor, başı ve sonu aynı olması gerekmekte
+#Cümle içerisinde tırnak işareti kullanmak için
+"Mehmet'in kalemi var." şeklinde çift tırnak kullanılmalı
+'Mehmet'in kalemi var' şeklinde yazılırsa hata verir çünkü tek tırnak bittiği yer 'Mehmet' olarak algılar
+#Ancak tek tırnak ile de kullanmak isterim dersen
+'Mehmet\'in kalemi var' şeklinde yazılmalı, ters slash tırnaktan önce gelmeli
+
+#String Tanımlama
+x = "Merhaba"
+y = "Mehmet"
+eğer bunu x + y yazarsak karşımıza Merhaba Mehmet olarak çıkar
+x + "Ali" yazarsak da Merhaba Ali gibi gibi
