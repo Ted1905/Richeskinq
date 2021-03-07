@@ -1,0 +1,33 @@
+#String İşlemleri
+örn.
+a = "Ali"
+print (a)
+#bu şekilde ilk string oluşturduk
+b = "nasılsın?"
+print (a , b)
+"yazınca "Ali nasılsın" yazısı karşımıza çıkacaktır.
+#Stringlerin her biri farklı index sayısına eşittir. 
+#örneğin a[0] diye basarsak en baştaki harfi yani "A" gösterecektir.
+#Ali, A harfi 0, L harfi 1, i harfi 2 şeklinde sırasıyla gidiyor.   
+#tersten de gitmek istersek - yani eksi işaretini başına koyarak ekleyebiliriz.
+#Örneğin a[-1] yazarsak Ali stringinde tersten bize i olarak verecektir. 
+#-1 i, -2 L, -3 A, şeklinde gitmektedir.
+#Stringlerde bir indexten şu indexe kadar gitsin istiyorum diyorsan
+a = "Merhaba"
+a [2:6]
+#bu şekilde yaparsak 2'den 6'ya kadar olan indexi bize verir.
+#yani rhab diye yazacaktır. indexlerin 0dan başladığını hatırlatalım. 
+#ve 6'ya kadar derken 2,3,4,5 olarak yazar ama 6'yı yazmaz
+#baştan yazması için
+a [:6] 
+#yazarsak Merhab yazacaktır. 
+#belirli bir indexten sonuna kadar gitmesi için tam tersi, yani
+a [2:]
+#şeklinde yazarsak 2den sonuna kadar yani rhaba diye yazacaktır.
+#hepsini yazdırmak için zaten a diye print yapmak yeterli ya da isterseniz a [:] şeklinde de yazabilirsiniz.
+#eğer bir stringin ne kadar uzunluğu olduğunu görmek istiyorsak
+len (a) dememiz yeterli olacaktır. a stringinde ne kadar index var onu yazacaktır. 
+#yani 7
+#string oluşturmadan index sayısını öğrenmek için
+len ("Ali hoş geldin")
+#diye yazarsanız kaç index var, onu verecektir yani 14
