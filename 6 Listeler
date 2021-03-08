@@ -1,0 +1,26 @@
+#Listeler
+#Listeler değişik veri tiplerini tutan bir küme diyebiliriz.
+a = [1, 3, 5, "Ali", 7]
+#a 'yı print yaptığımızda kümelenen listeleri bir arada görmüş oluyoruz. a yani liste oluyor.
+#stringlerde olduğu gibi listelerde de index uzunluğunu ve sayısını görebiliriz.
+len (a)
+#dediğimiz zaman 5 cevabını alacağız. Çünkü her virgül 1 index sayısıdır.
+a [0] dersek bize ilk sayı yani 1'i verecektir.
+#listeler bu şekilde olurken, bir tanım yapalım.
+oyuncu = ["Ali", "Veli", 34, 1.85]
+#burada oyuncunun adı, soyadı, yaşı ve boyunu yazdık. oyuncunun adı için;
+oyuncu [0] dediğimiz zaman bize "Ali" diye verecektir. bu şekilde listeleme yapılabilir.
+#listelerde değer değiştirmek için;
+oyuncu [1] = "Mert"
+#diye yazarsak Veli olan kısım Mert olarak değişmiş şeklinde göreceğiz.
+#listeye bir eleman daha eklemek istersek;
+oyuncu.append ["Aydınspor"]
+#oyuncu diye tekrar print yaptığımızda takımı en sona eklemiş olacaktır.
+oyuncu + ["geldi"]
+#bu şekilde print ettiğiniz zaman da listeye eklemeden sonuna string getirerek de yapabilirsiniz.
+#stringlerde olduğu gibi listelerde de;
+oyuncu [:2]
+#diye print yaparsak baştan ilk 2 listeyi bize basacaktır yani "Ali", "Mert"
+oyuncu [:2] = ["Aykut", "Baba"]
+#bu şekilde yazıp oyuncu'yu print yaparsak listenin ilk 2 elamanını 2 farklı eleman ile değiştirecektir.
+#silmek için ise aykut baba yerine boş bırakırsak ilk iki eleman boş küme yani silinmiş olacaktır.
