@@ -1,0 +1,37 @@
+#Değişkenler
+#Değişkenler de type fonksiyonu, parantez içindeki değişkenlerin bize hangi sınıf olduğunu söyler
+type (12)
+#yazdığımız zaman karşımıza <class 'int'> sınıfın integer yani tam sayı olduğunu söylüyor
+type ("ali")
+#yazdığımızda karşımıza <class 'str'> yani string olduğunu gösterir.
+type (12.5) yaparsak karşımıza <class 'float'> yani ondalıklı sayı olduğunu gösteriyor.
+type ([1,2,3,4]) 
+#şeklinde liste yazdığımızda karşımıza <class 'list'> liste sınıfı olduğunu söyleyecektir.
+type ((1,2,3,4))
+# şeklinde yazarsak karşımıza demet yani <class 'tuple'> olduğu çıkacaktır.
+type ({1,2,3,4})
+#yazarsak karşımıza <class 'set'> olarak çıkacaktır.
+type ({"elma":"armut"})
+#yazarsak sözcük olduğunu yani <class 'dict'> söyleyecektir.
+#Genelde Python'da en çok kullanılan değişken tipleri bunlardır.
+#Şimdi gelelim değişken tanımlama
+x = 5
+y = 4
+x = x+y 
+#şeklinde tanımlama yaptıktan sonra x'i print yaparsak bize x+y toplamını yani 9'u verecektir.
+a = "Merhaba"
+b = "Dünya"
+a = a+b
+#dediğimizde a'yı print yaparsak "Merhaba Dünya" olarak karşımıza çıkacaktır.
+type (x) 
+#dediğimizde karşımıza x'in değeri olan tam sayı yani <class 'int'> olarak çıkacaktır.
+str (3)
+#yaparsak tam sayı değerini string değerine dönüştürüyor ve karşımıza "3" olarak çıkarıyor.
+type (str(3))
+#dersek önce tam sayıyı stringe çevirecek ondan sonra ne type olduğunu bize gösterecektir.
+#böylece karşımıza <class 'str'> çıkacaktır.
+#tam sayıyı ondanlık olarak göstermek, ondalıklı sayıyı tam sayı göstermek için
+float (3) dersek 3.0
+int (3.2) dersek 3 olarak karşımıza çıkacaktır.
+#ancak yazıları tam sayıya çeviremeyiz.
+int ("ali") dersek hata verecektir.
