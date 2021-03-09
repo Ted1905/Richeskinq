@@ -1,0 +1,14 @@
+print ("Okul Kayıt Formu")
+ad = input("Adınız:")
+soyad = input("Soyadınız:")
+yas = input("Yaşınız:")
+sinif = input("Sınıfınız:")
+iletisim = input("İletişim:")
+
+bilgiler = [ad,soyad,yas,iletisim,sinif]
+
+print ("Kayıt oluşturuluyor...")
+
+print ("Öğrenci Bilgileri \nAdı:{}\nSoyadı:{}\nYaşı:{}\nSınıfı:{}\nİletişim:{}".format(bilgiler[0],bilgiler[1],bilgiler[2],bilgiler[3],bilgiler[4]))
+
+print ("Kayıt Tamamlandı.")
