@@ -1,0 +1,15 @@
+#Input Fonksiyonu
+#Tanımlama diyebileceğimiz input Fonksiyonu ile komut yazabiliriz. misal
+a = input("Bir sayı giriniz:")
+print (a)
+#Bunu yazdığımızda öncelikle bizden bir sayı girmemizi isteyecek ve sayıyı girdikten sonra a değerini print edecek.
+#ufak bir proje yapabiliriz bununla ilgili
+a = input("Şanslı Birinci sayınız:")
+b = input("Şanslı İkinci sayınız:")
+c = input("Şanslı Üçüncü sayınız:")
+
+print ("Şanslı sayılarınızın toplamı:", int(a)+int(b)+int(c))
+#Eğer print ederken int diye yazmazsak a+b+c yazarsak bunları tam sayı değil string olarak algılar
+#Bu şekilde de sayıların toplamı değil sayıların yan yana yazılımını bize verir. 
+#Bu yüzden tam sayıları mutlaka integer olduğunu belirtmemiz gerekiyor.
+#Örnek Proje1 ile detaylı örneklendirme yaptım.
