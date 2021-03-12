@@ -1,0 +1,25 @@
+cevap="E"
+while (cevap=="E"):
+    print ("Forum Yeni Üyelik")
+    ad = input("Adınızı Giriniz:")
+    soyad = input("Soyadınızı Giriniz:")
+    yas = float(input("Yaşınızı Giriniz:"))
+    if yas >= 18:
+        print ("Devam edebilirsiniz...")
+        break
+    elif yas <18:
+        print ("18 yaşından küçükler üye olamaz. Tekrar denemek ister misiniz? E/H")
+        cevap = input()
+        if (cevap == "E"):
+            print ("Tekrar başlayınız.")
+nickname = input("Takma Adı Giriniz:")
+sifre = input("Şifrenizi Giriniz:")
+iletisim = input("İletişim Bilgisi Giriniz:")
+
+bilgiler = [ad,soyad,yas,nickname,sifre,iletisim]
+
+print ("\nYeni Üyelik Oluşturuluyor...")
+print ("\nÜyelik Bilgilerinizi Saklayınız. \n\nAdınız:{} \nSoyadınız:{} \nYaşınız:{} \nTakma Adınız:{} \nŞifreniz:{} \nİletişim Bilgileriniz:{}".format(bilgiler[0],bilgiler[1],bilgiler[2],bilgiler[3],bilgiler[4],bilgiler[5]))
+
+print ("\nÜyeliğiniz Tamamlandı...")
+print ("\nForuma Hoşgeldiniz...")
