@@ -1,0 +1,9 @@
+def UsAl(sayi,us):
+    sonuc=1
+    for i in range(us):
+        sonuc=sonuc*sayi
+    return sonuc
+ 
+s=int(input('Sayıyı Gir : '))
+u=int(input('Üs Gir : '))
+print (UsAl(s,u))
