@@ -1,0 +1,14 @@
+koyun = int(input("Koyun:"))
+orumcek = int(input("Örümcek:"))
+tavsan = int(input("Tavşan:"))
+
+bilgiler = [koyun,orumcek,tavsan]
+if tavsan < 0:
+    koyun *= 4
+print ("Koyunların ayak sayısı:", koyun*4)
+if orumcek < 0:
+    orumcek *=8
+print ("Örümceklerin Ayak Sayısı:", orumcek*8)
+if tavsan < 0:
+    tavsan *=4
+print ("Tavşanların Ayak Sayısı:", tavsan*4)
