@@ -1,0 +1,3 @@
+a= int(input("Sayı Giriniz:"))
+b= int(input("Üs Giriniz:"))
+print ("Sonuç:", a**b)
