@@ -1,0 +1,23 @@
+print ("Sayıların Çarpanları")
+i = 1
+
+sayi = int(input("Sayı Giriniz:"))
+liste = []
+carpan = []
+
+while i < sayi:
+    if sayi % i == 0:
+        print (i)
+        liste.append(i)
+    i += 1
+del i
+for i in liste:
+    bitir= True
+    for a in liste:
+        if (bitir):
+            if (i==a):
+                carpan.append(i)
+            elif (i%a==0):
+                bitir = False
+print ("\n" , *carpan)
+
