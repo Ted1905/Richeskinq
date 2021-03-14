@@ -1,0 +1,7 @@
+print ("Yüzyıl Bulma Programı")
+print ("Lütfen Aşağıya Her Hangi Bir Yıl Giriniz")
+yil=int(input())
+if yil%100==0:
+    print(yil//100)
+else:
+  print(yil//100+1,".Yüzyıl")
